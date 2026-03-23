@@ -1,0 +1,17 @@
+[
+    {
+        "model": "core.Application",
+        "pk": 1,
+        "fields": {
+            "name": "SAAM"
+        }
+    },
+    {
+        "model": "core.Application",
+        "pk": 2,
+        "fields": {
+            "name": "Multicotizador"
+        }
+    }
+
+]

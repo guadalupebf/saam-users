@@ -1,0 +1,538 @@
+[
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 1,
+        "fields": {
+            "application_id":1,
+            "name": "Dashboard"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 1,
+        "fields": {
+            "model_id": 1,
+            "name": "Gráfica OTs"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 2,
+        "fields": {
+            "model_id": 1,
+            "name": "Gráfica cobranza"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 3,
+        "fields": {
+            "model_id": 1,
+            "name": "Gráfica renovaciones"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 4,
+        "fields": {
+            "model_id": 1,
+            "name": "Gráfica siniestros"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 5,
+        "fields": {
+            "model_id": 1,
+            "name": "KBI's"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 6,
+        "fields": {
+            "model_id": 1,
+            "name": "Filtrado gráfica cobranza"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 2,
+        "fields": {
+            "application_id":1,
+            "name": "Contratantes y grupos"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 7,
+        "fields": {
+            "model_id": 2,
+            "name": "Administrar contratantes y grupos"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 8,
+        "fields": {
+            "model_id": 2,
+            "name": "Ver contratantes y grupos"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 9,
+        "fields": {
+            "model_id": 2,
+            "name": "Eliminar grupos"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 3,
+        "fields": {
+            "application_id":1,
+            "name": "Ordenes de trabajo"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 10,
+        "fields": {
+            "model_id": 3,
+            "name": "Administrar OTs"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 11,
+        "fields": {
+            "model_id": 3,
+            "name": "Ver OTs"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 12,
+        "fields": {
+            "model_id": 3,
+            "name": "Eliminar OTs"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 13,
+        "fields": {
+            "model_id": 3,
+            "name": "Cancelar OTs"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 4,
+        "fields": {
+            "application_id":1,
+            "name": "Pólizas"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 14,
+        "fields": {
+            "model_id": 4,
+            "name": "Administrar pólizas"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 15,
+        "fields": {
+            "model_id": 4,
+            "name": "Ver pólizas"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 16,
+        "fields": {
+            "model_id": 4,
+            "name": "Eliminar pólizas"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 17,
+        "fields": {
+            "model_id": 4,
+            "name": "Cancelar pólizas"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 5,
+        "fields": {
+            "application_id":1,
+            "name": "Fianzas"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 18,
+        "fields": {
+            "model_id": 5,
+            "name": "Administrar fianzas"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 19,
+        "fields": {
+            "model_id": 5,
+            "name": "Ver fianzas"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 20,
+        "fields": {
+            "model_id": 5,
+            "name": "Eliminar fianzas"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 21,
+        "fields": {
+            "model_id": 5,
+            "name": "Cancelar fianzas"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 6,
+        "fields": {
+            "application_id":1,
+            "name": "Reportes"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 22,
+        "fields": {
+            "model_id": 6,
+            "name": "Reporte cobranza"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 23,
+        "fields": {
+            "model_id": 6,
+            "name": "Reporte renovaciones"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 24,
+        "fields": {
+            "model_id": 6,
+            "name": "Reporte pólizas"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 25,
+        "fields": {
+            "model_id": 6,
+            "name": "Reporte Endosos"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 26,
+        "fields": {
+            "model_id": 6,
+            "name": "Reporte Siniestros"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 27,
+        "fields": {
+            "model_id": 6,
+            "name": "Reporte fianzas"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 7,
+        "fields": {
+            "application_id":1,
+            "name": "Cobranza"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 28,
+        "fields": {
+            "model_id": 7,
+            "name": "Ver cobranza"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 29,
+        "fields": {
+            "model_id": 7,
+            "name": "Liquidar recibos"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 30,
+        "fields": {
+            "model_id": 7,
+            "name": "Conciliar recibos"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 31,
+        "fields": {
+            "model_id": 7,
+            "name": "Desliquidar recibos"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 32,
+        "fields": {
+            "model_id": 7,
+            "name": "Desconciliación de recibos"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 33,
+        "fields": {
+            "model_id": 7,
+            "name": "Pagar y prorrogar"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 34,
+        "fields": {
+            "model_id": 7,
+            "name": "Despagar recibos"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 35,
+        "fields": {
+            "model_id": 7,
+            "name": "Eliminar recibos"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 8,
+        "fields": {
+            "application_id":1,
+            "name": "Endosos"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 36,
+        "fields": {
+            "model_id": 8,
+            "name": "Registrar endosos"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 37,
+        "fields": {
+            "model_id": 8,
+            "name": "Eliminar endosos"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 9,
+        "fields": {
+            "application_id":1,
+            "name": "Siniestros"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 38,
+        "fields": {
+            "model_id": 9,
+            "name": "Administrar siniestros"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 10,
+        "fields": {
+            "application_id":1,
+            "name": "Referenciadores"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 39,
+        "fields": {
+            "model_id": 10,
+            "name": "Administrar referenciadores"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 40,
+        "fields": {
+            "model_id": 10,
+            "name": "Pagar a referenciadores"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 41,
+        "fields": {
+            "model_id": 10,
+            "name": "Cambiar refrenciador en pólizas"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 11,
+        "fields": {
+            "application_id":1,
+            "name": "Formatos"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 42,
+        "fields": {
+            "model_id": 11,
+            "name": "Formatos"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 12,
+        "fields": {
+            "application_id":1,
+            "name": "Correos electronicos"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 43,
+        "fields": {
+            "model_id": 12,
+            "name": "Correos"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 13,
+        "fields": {
+            "application_id":1,
+            "name": "Campañas"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 44,
+        "fields": {
+            "model_id": 13,
+            "name": "Campañas"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 14,
+        "fields": {
+            "application_id":1,
+            "name": "Mensajeria"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 45,
+        "fields": {
+            "model_id": 14,
+            "name": "Mensajeria"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 15,
+        "fields": {
+            "application_id":1,
+            "name": "Agenda"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 46,
+        "fields": {
+            "model_id": 15,
+            "name": "Agenda"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 16,
+        "fields": {
+            "application_id":1,
+            "name": "Paquetes"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 47,
+        "fields": {
+            "model_id": 16,
+            "name": "Crear paquete"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 17,
+        "fields": {
+            "application_id":1,
+            "name": "Comisiones"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 48,
+        "fields": {
+            "model_id": 17,
+            "name": "Comisiones"
+        }
+    },
+    {
+        "model": "accounts.ModelPermission",
+        "pk": 18,
+        "fields": {
+            "application_id":1,
+            "name": "Archivos"
+        }
+    },
+    {
+        "model": "accounts.Permission",
+        "pk": 49,
+        "fields": {
+            "model_id": 18,
+            "name": "Administrar archivos sensibles"
+        }
+    }
+]
